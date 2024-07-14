@@ -1,0 +1,78 @@
+{
+  "name": "app-spin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.0",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@react-spring/web": "^9.7.3",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.38",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/react-redux": "^7.1.25",
+    "axios": "^1.6.2",
+    "d3": "^7.8.5",
+    "dotenv": "^16.3.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^5.0.0",
+    "i18next": "^23.2.10",
+    "i18next-browser-languagedetector": "^7.1.0",
+    "i18next-http-backend": "^2.2.1",
+    "prettier": "^3.0.0",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.2",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "^5.0.1",
+    "react-use-clipboard": "^1.0.9",
+    "recharts": "^2.9.0",
+    "sass": "^1.64.1",
+    "styled-components": "^5.3.11",
+    "typescript": "^4.9.5",
+    "use-sound": "^4.0.1",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "set PORT=5000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/d3": "^7.4.0",
+    "@types/styled-components": "^5.1.26",
+    "@types/uuid": "^9.0.7",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0"
+  }
+}
